@@ -1,0 +1,85 @@
+/* Preloder */
+#LogoLoader{
+    width: 100px;
+  
+  
+  }
+  #preloder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: 999999;
+      background: #f8f9fa;
+  }
+  
+  .loader {
+      width: 110px;
+      height: 110px;
+      position: absolute;
+  
+      margin-top: -0px;
+      margin-left: -0px;
+      border-radius: 65px;
+      animation: loader 0.8s linear infinite;
+      -webkit-animation: loader 0.8s linear infinite;
+  }
+  
+  @keyframes loader {
+      0% {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+          border: 4px solid #ce1b28;
+          border-left-color: transparent;
+      }
+      50% {
+          -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+          border: 4px solid #0000ff;
+          border-left-color: transparent;
+      }
+      100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+          border: 4px solid #ce1b28;
+          border-left-color: transparent;
+      }
+  }
+  
+  @-webkit-keyframes loader {
+      0% {
+          -webkit-transform: rotate(0deg);
+          border: 4px solid #ce1b28;
+          border-left-color: transparent;
+      }
+      50% {
+          -webkit-transform: rotate(180deg);
+          border: 4px solid #0000ff;
+          border-left-color: transparent;
+      }
+      100% {
+          -webkit-transform: rotate(360deg);
+          border: 4px solid #ce1b28;
+          border-left-color: transparent;
+      }
+  }
+  
+
+    .fadeOut{
+        opacity:0;
+        width:0;
+        height:0;
+        transition: width 0.5s 0.5s, height 0.5s 0.5s, opacity 0.5s;
+
+    }
+    .fadeIn{
+        opacity:1;
+        width:100px;
+        height:100px;
+        transition: width 0.5s, height 0.5s, opacity 0.5s 0.5s;
+
+    }
