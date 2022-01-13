@@ -8,6 +8,7 @@ window.onload = function()
   {
     
     document.querySelector("#preloder").classList.add("fadeOut")
+    document.querySelector("#preloder").style.display = "none";
   },400)
 }
 
