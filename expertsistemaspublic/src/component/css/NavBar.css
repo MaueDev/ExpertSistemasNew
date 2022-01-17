@@ -6,11 +6,16 @@ ul {
 }
 
 a{
-    color:black;
     text-decoration: none;
     font-family: sans-serif;
 }
 
+.scrollactive
+{
+    background-color: #F8F9FA !important;
+    transition: background-color 500ms linear;
+    color: black !important
+}
 
 ul a:hover
 {
@@ -37,11 +42,18 @@ ul a:hover
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #F8F9FA;
+    background: transparent;
+    transition: background-color 500ms linear;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 10001;
+}
+
+#header a
+{
+    color: #e7e7e7;
+
 }
 
 #menu {
@@ -119,5 +131,9 @@ ul a:hover
     #nav.active #hamburger::after {
     transform: rotate(-135deg);
     top: -7px;
+    }
+    .activeA
+    {
+        background-color: rgba(31, 31, 31, 0.124);
     }
 }

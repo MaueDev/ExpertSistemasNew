@@ -14,11 +14,11 @@ function Introduction()
             <p></p>
             <h1>UM SISTEMA PENSADO PARA VOCÊ!</h1>
             <div id="btn">
-                <button id="btn_baixar" className="btn_baixar" download>
+                <button id="btn_baixar1" className="btn_baixar" download>
                     <img src={ExpertLogo} className="img_btn" alt="Download do Setup Expert Sistemas"/>
                     <b>VERSÃO DE DEMONSTRAÇÃO</b>
                 </button>
-                <button id="btn_baixar" className="btn_baixar" download>
+                <button id="btn_baixar2" className="btn_baixar" download>
                     <img src={TeamViewerLogo} className="img_btn" alt="Download do Setup Expert Sistemas"/>
                     <b>VERSÃO DE DEMONSTRAÇÃO</b>
                 </button>
@@ -28,6 +28,7 @@ function Introduction()
        </section>
     )
 }
+
 
 
 export default Introduction
