@@ -24,7 +24,7 @@ function Introduction()
                 </button>
             </div>
         </div>
-        <video autoplay loop muted playsinline src={Banner}></video>
+        <video loop autoplay='' muted playsinline src={Banner}></video>
        </section>
     )
 }

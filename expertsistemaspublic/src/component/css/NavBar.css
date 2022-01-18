@@ -71,7 +71,9 @@ ul a:hover
 #btn-mobile
 {
     display: none;
+    color:#F8F9FA;
 }
+
 
 @media(max-width:708px)
 {
@@ -81,7 +83,7 @@ ul a:hover
     width: 100%;
     top: 70px;
     right: 0px;
-    background: #e7e7e7;
+    background: #F8F9FA;
     transition: 0.6s;
     z-index: 1000;
     height: 0px;
@@ -131,9 +133,5 @@ ul a:hover
     #nav.active #hamburger::after {
     transform: rotate(-135deg);
     top: -7px;
-    }
-    .activeA
-    {
-        background-color: rgba(31, 31, 31, 0.124);
     }
 }
