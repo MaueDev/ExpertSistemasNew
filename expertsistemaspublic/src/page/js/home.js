@@ -1,15 +1,18 @@
+/* Imagems */
+import imgWhite from "../../imagem/Logo-EXP-BRANCA.png";
+import imgBlack from "../../imagem/Logo EXP Sem Fundo.png";
 //Definir titulo
 document.querySelector("#TitlePage").textContent = "Expert Sistemas";
 
 
-//Efeito NavBar
 
+//Efeito NavBar
 function scrollteste()
 {
     const Navbar = document.querySelector("#header")
     const BtnMenu = document.querySelectorAll("#header a")
     const Btn = document.querySelector("#btn-mobile");
-    const Menu = document.querySelector("#menu");
+    const LogoImg = document.querySelector("#ImgLogo")
 
    if(window.scrollY >0 )
    {
@@ -18,6 +21,7 @@ function scrollteste()
         Navbar.classList.add('scrollactive')
         BtnColor("black")
         Btn.style.color = "black"
+        LogoImg.src = imgBlack
 
        }
    }
@@ -28,6 +32,8 @@ function scrollteste()
         Navbar.classList.remove('scrollactive')
         BtnColor("#F8F9FA")
         Btn.style.color = "#F8F9FA"
+        LogoImg.src = imgWhite
+
        }
    }
    function BtnColor(color)

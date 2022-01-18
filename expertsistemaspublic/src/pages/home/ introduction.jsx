@@ -1,5 +1,4 @@
 /*Midia*/
-import Banner from "../../imagem/banner.mp4";
 import ExpertLogo from "../../imagem/svgicone.svg";
 import TeamViewerLogo from "../../imagem/ts.png";
 /*CSS JS */
@@ -24,7 +23,6 @@ function Introduction()
                 </button>
             </div>
         </div>
-        <video loop autoplay='' muted playsinline src={Banner}></video>
        </section>
     )
 }

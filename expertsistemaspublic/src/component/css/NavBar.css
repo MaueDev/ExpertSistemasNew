@@ -52,7 +52,7 @@ ul a:hover
 
 #header a
 {
-    color: #e7e7e7;
+    color: #F8F9FA;
 
 }
 
@@ -74,6 +74,10 @@ ul a:hover
     color:#F8F9FA;
 }
 
+.ActiveBtnMenu
+{
+    color:#F8F9FA
+}
 
 @media(max-width:708px)
 {
