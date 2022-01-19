@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600");
 :root
 {
     --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
@@ -29,3 +30,56 @@ body {
     background-color: #fff;
 
   }
+
+  /* Wrapper */
+.wrapper 
+{
+    padding: 20px 0 0 0 ;
+    position: relative;
+    z-index: 1; 
+}
+@media screen and (max-width: 1280px) 
+{
+    .wrapper 
+    {
+      padding: 4rem 0 2rem 0 ; 
+    } 
+}
+@media screen and (max-width: 736px) 
+{
+    .wrapper 
+    {
+      padding: 3rem 0 1rem 0 ; 
+    } 
+}
+@media screen and (max-width: 480px) 
+{
+    .wrapper 
+    {
+      padding: 2rem 0 0.1rem 0 ; 
+    } 
+}
+
+.wrapper .special 
+{
+    text-align: center;
+    margin-bottom: 4rem; 
+}
+.wrapper .special  p 
+{
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.wrapper .special h2
+{
+    padding-bottom: 15px;
+}
+
+.wrapper .inner
+{
+    margin: 0 auto;
+    width: 75rem;
+    max-width: calc(100% - 6rem);
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-
+import "./component/css/bootstrap.min.css"
 
 //Favicon//
 import Favicon from "./imagem/svgicone.svg";

@@ -8,7 +8,7 @@ function Introduction()
 {
     return (
        <section id="banner">
-        <div className="inner">
+        <div className="innerIntroduction">
             <p>Permita-nos apresentar uma nova forma de gestão para sua empresa e descubra uma maneira simplificada de acompanhar seus resultados e alcançar seus objetivos! </p>
             <p></p>
             <h1>UM SISTEMA PENSADO PARA VOCÊ!</h1>
