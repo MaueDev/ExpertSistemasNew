@@ -80,14 +80,15 @@ section
     z-index: 3;
     display: flex;
     flex-direction: column;
-    align-content: safe;
     align-items: center;
     justify-content: space-evenly;
 }
 
 #banner p 
 {
-    font-size: 1.5rem;
+    font-size: 1.59rem;
+    line-height: 1.2;
+    text-transform: uppercase;
     font-family: var(--bs-font-sans-serif);
 }
 
@@ -101,8 +102,10 @@ p
 
 #banner h1 
 {
-    font-size: 4.5rem;
-    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+    font-size: 5rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
 
 }
 
