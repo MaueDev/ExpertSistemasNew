@@ -6,6 +6,7 @@ import NavBarExpert from "../component/NavBar.js"
 
 import Introduction from "../pages/home/ introduction.jsx"
 import OSoftware from "../pages/home/osoftware.jsx"
+import MaisFun from "../pages/home/MaisFun.jsx";
 export default function Home()
 {
     return (
@@ -14,6 +15,7 @@ export default function Home()
         <NavBarExpert/>
         <Introduction/>
         <OSoftware/>
+        <MaisFun/>
         </>
         
     )
