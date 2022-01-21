@@ -1,0 +1,29 @@
+/* Footer */
+#footer 
+{
+    background-color: #111111;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#footer .copyright 
+{
+    border-top: 1px solid;
+    font-size: 0.8rem;
+    opacity: 0.5;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+
+#footer .copyright::after {
+    background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
+    content: ' ';
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }

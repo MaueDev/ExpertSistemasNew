@@ -4,10 +4,11 @@ import Loader from "../component/Loader"
 import NavBarExpert from "../component/NavBar.js"
 
 
-import Introduction from "../pages/home/ introduction.jsx"
-import OSoftware from "../pages/home/osoftware.jsx"
+import Introduction from "../pages/home/ introduction.jsx";
+import OSoftware from "../pages/home/osoftware.jsx";
 import MaisFun from "../pages/home/MaisFun.jsx";
-import AEmpresa from "../pages/home/empresa.jsx"
+import AEmpresa from "../pages/home/empresa.jsx";
+import FooterUtils from "../component/footer.js";
 export default function Home()
 {
     return (
@@ -18,6 +19,7 @@ export default function Home()
         <OSoftware/>
         <MaisFun/>
         <AEmpresa/>
+        <FooterUtils/>
         </>
         
     )
