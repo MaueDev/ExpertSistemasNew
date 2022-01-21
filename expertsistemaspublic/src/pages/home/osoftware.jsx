@@ -26,7 +26,7 @@ function Software()
     
     return(
         <main className="special">
-            <h2> O SOFTWARE </h2>
+            <h2 className="Meio"> O SOFTWARE </h2>
             <div id="slide" className="carousel slide" data-ride="carousel">
                 <div className="carousel-inner">
                 <div className="carousel-item active">
@@ -88,7 +88,7 @@ function Funcionalidades()
 {
     return(
         <main id="FUNCIONALIDADES" className="special">
-            <h2>FUNCIONALIDADES</h2>
+            <h2 className="Meio">FUNCIONALIDADES</h2>
             <div className="highlights">
             <Item  src={ControleEstoqueImg} textHeader="Controle de Estoque" textContent="O sitema permite gestão adequada dos fluxos de entrada e saída, permite prever necessidades de compras, reduzir perdas por roubo ou vencimento dos produtos."/>
                 <Item  src={EmissorNfe} textHeader="Emissor de NF-e e NFC-e" textContent="Emita suas NF-e de produto de forma ágil com um sistema emissor completo. Com a NFC-e você ganha mais agilidade na hora de emitir notas fiscais para seus clientes."/>

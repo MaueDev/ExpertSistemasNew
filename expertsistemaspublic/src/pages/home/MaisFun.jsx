@@ -28,7 +28,7 @@ function MaisFun()
         <section className="wrapper">
             <div className="inner">
                 <main className="special">
-                    <h2>Mais algumas funções do nosso software para a sua empresa </h2>
+                    <h2 className="Meio">Mais algumas funções do nosso software para a sua empresa </h2>
                 </main>
                 <div className="Colum">
                     <div className="ColumLeft">
